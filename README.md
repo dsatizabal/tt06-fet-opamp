@@ -1,8 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny Tapeout Analog Project Template
+# Sky130 simple FET Operational Amplifier
 
-- [Read the documentation for project](docs/info.md)
+This is a simple OpAmp implemented with Sky130 PDK and manufactured with TinyTapeout (see more information below).
+
+[Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
 
