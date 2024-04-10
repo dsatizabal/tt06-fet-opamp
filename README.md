@@ -4,7 +4,7 @@
 
 This is a simple OpAmp implemented with Sky130 PDK and manufactured with TinyTapeout (see more information below).
 
-[Read the documentation for project](docs/info.md)
+For more information [read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
 
