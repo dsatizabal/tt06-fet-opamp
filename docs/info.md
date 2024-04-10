@@ -41,8 +41,8 @@ Two testbenches are included for the OpAmp: a [Non-Inverting amplifier](../xsche
 
 To test the Operational Amplifier any of those circuits, that are very easy to setup, can be utilized and check the corresponding output gains.
 
-/!\Beware that the input signal ground (Vin) must not be connected to the same ground as Chip power, it must be connected to ZREF pin./!\
-/!\Observe that output signal will have a DC offset due to the use of a virtual ground inside the OpAmp/!\
+/!\ Beware that the input signal ground (Vin) must not be connected to the same ground as Chip power, it must be connected to ZREF pin. /!\
+/!\ Observe that output signal will have a DC offset due to the use of a virtual ground inside the OpAmp. /!\
 
 ## External hardware
 
