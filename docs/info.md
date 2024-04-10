@@ -19,7 +19,7 @@ Basically works as an OpAmp, that is, a high-impedance high-gain on open-loop am
 
 The following is a capture of Xschem of the internals of OpAmp:
 
-![OpAmp schematics](./img/xschem.png "OpAmp schematics")
+![OpAmp schematics](/docs/img/xschem.png "OpAmp schematics")
 
 ### A note on the R1/R2 network:
 
@@ -29,11 +29,11 @@ This is to generate a virtual ground and provide a negative voltage as VDD. In T
 
 Next we show a view of the Layout created in Magic for the OpAmp cell only:
 
-![Magic layout](./img/magic.png "Magic layout")
+![Magic layout](/docs/img/magic.png "Magic layout")
 
 The OpAmp cell integrated with TinyTapeout top cell shows less detail and is shown as reference:
 
-![Magic layout](./img/magictop.png "Magic layout")
+![Magic layout](/docs/img/magictop.png "Magic layout")
 
 ## How to test
 
