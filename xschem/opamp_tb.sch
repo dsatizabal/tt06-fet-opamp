@@ -185,7 +185,9 @@ tclcommand="
 xschem raw_read $netlist_dir/opamp_tb_ac.raw ac
 "
 }
-C {opamp.sym} -390 0 0 0 {schematic=opamp_parax.sim
+C {opamp.sym} -390 0 0 0 {name=x2
+
+schematic=opamp_parax.sim
 spice_sym_def="tcleval(.include [file normalize ../mag/opamp.sim.spice])"
 tclcommand="textwindow [file normalize ../mag/opamp.sim.spice]"
 }
