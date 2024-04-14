@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1712766880
+timestamp 1713125316
 << metal1 >>
 rect 5358 2758 13797 2773
 rect 5358 2683 5369 2758
@@ -196,10 +196,10 @@ rect 13448 0 13508 446
 rect 15655 100 15715 2108
 rect 15655 88 15716 100
 rect 15656 0 15716 88
-use opamp  opamp_0
-timestamp 1712683347
+use opamp  opamp_0 ~/tt06-fet-opamp/mag
+timestamp 1713125316
 transform -1 0 13182 0 -1 1498
-box -1166 -2666 2810 300
+box -1339 -2666 2810 300
 << labels >>
 flabel metal4 s 15487 22476 15517 22576 0 FreeSans 240 90 0 0 clk
 port 0 nsew signal input

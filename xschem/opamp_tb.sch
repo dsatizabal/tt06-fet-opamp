@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 310 -370 750 -140 {flags=graph
-y1=-0.1
+
 y2=0.1
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=0
-x2=0.1
+x1=-0.0026299827
+x2=0.11967592
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -25,11 +25,13 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-color="11 7 12 15"
+color="11 7 12 15 4"
 node="vi
 vo
 vilay
-volay"}
+volay
+i(vmeas)"
+y1=-0.1}
 B 2 310 -120 750 130 {flags=graph,unlocked
 y1=-6.9
 y2=12
@@ -67,8 +69,6 @@ N -80 20 -80 40 {
 lab=Vi}
 N -80 20 -50 20 {
 lab=Vi}
-N 10 -60 160 -60 {
-lab=#net2}
 N 10 -60 10 -50 {
 lab=#net2}
 N -90 20 -80 20 {
@@ -143,6 +143,8 @@ N -570 180 -490 180 {
 lab=GND}
 N -420 180 -420 200 {
 lab=GND}
+N 10 -60 160 -60 {
+lab=#net2}
 C {opamp.sym} 20 0 0 0 {name=x1}
 C {devices/res.sym} -110 -20 1 0 {name=R1
 value=1k

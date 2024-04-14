@@ -11,7 +11,7 @@ XM8 ZREF VGND VDD VDD sky130_fd_pr__pfet_01v8 L=0.6 W=6 nf=1 m=1
 XM9 net4 VDD net2 VGND sky130_fd_pr__nfet_01v8 L=0.6 W=1 nf=1 m=1
 XC1 net4 Vout sky130_fd_pr__cap_mim_m3_1 W=17.55 L=15 m=1
 XM6 Vout net2 VGND VGND sky130_fd_pr__nfet_01v8 L=0.6 W=6 nf=1 m=1
-R1 ZREF VDD sky130_fd_pr__res_generic_l1 W=1 L=5 m=1
-R2 VGND ZREF sky130_fd_pr__res_generic_l1 W=1 L=5 m=1
+XR1 ZREF VDD VGND sky130_fd_pr__res_generic_nd W=1 L=5 mult=1 m=1
+XR2 VGND ZREF VGND sky130_fd_pr__res_generic_nd W=1 L=5 mult=1 m=1
 .ends
 .end

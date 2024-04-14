@@ -104,6 +104,9 @@ N 420 -640 420 -160 {
 lab=VGND}
 N 420 -600 460 -600 {
 lab=VGND}
+N 190 -390 200 -390 {}
+N 190 -390 190 -160 {}
+N 190 -270 200 -270 {}
 C {sky130_fd_pr/pfet_01v8.sym} 520 -470 0 0 {name=M1
 L=0.6
 W=6
@@ -209,14 +212,16 @@ C {devices/ipin.sym} 400 -520 0 0 {name=p4 lab=vin_p}
 C {devices/opin.sym} 1280 -440 0 0 {name=p6 lab=Vout}
 C {devices/iopin.sym} 180 -700 2 0 {name=p1 lab=VDD}
 C {devices/iopin.sym} 180 -330 2 0 {name=p2 lab=ZREF}
-C {sky130_fd_pr/res_generic_l1.sym} 220 -390 0 0 {name=R1
-W=1
-L=5
-model=res_generic_l1
-mult=1}
-C {sky130_fd_pr/res_generic_l1.sym} 220 -270 0 0 {name=R2
-W=1
-L=5
-model=res_generic_l1
-mult=1}
 C {devices/iopin.sym} 180 -160 2 0 {name=p5 lab=VGND}
+C {sky130_fd_pr/res_generic_nd.sym} 220 -390 0 0 {name=R1
+W=1
+L=5
+spiceprefix=X
+model=res_generic_nd
+mult=1}
+C {sky130_fd_pr/res_generic_nd.sym} 220 -270 0 0 {name=R2
+W=1
+L=5
+spiceprefix=X
+model=res_generic_nd
+mult=1}
